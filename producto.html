@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirt shop</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="Imagenes/logo1.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>VUEJS</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="Imagenes/1.jpg" alt="Imagen producto">
+            <div class="camisa__contenido">
+                <p>Proin eu eros urna. Nunc condimentum volutpat mauris, in dignissim mi sollicitudin sit amet.
+                    Suspendisse aliquam tellus et velit faucibus, quis vestibulum ligula ullamcorper. Vestibulum pretium
+                    ut ante in eleifend. Nunc ut blandit ligula. Fusce mauris felis, fringilla sit amet ipsum ac,
+                    porttitor ullamcorper dui. Donec sollicitudin justo a venenatis feugiat.</p>
+
+                    <form class="formulario">
+                        <select class="formulario__campo">
+                            <option disabled selected>Seleccionar talla</option>
+                            <option>Talla M</option>
+                            <option>Talla L</option>
+                            <option>Talla XL</option>
+                        </select>
+                        <input class="formulario__campo" type="number" placeholder="Cantidad" min="1" max="20">
+                        <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                    </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Shirt shop - todos los derechos reservados 2022</p>
+    </footer>
+</body>
+
+</html>
